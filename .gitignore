@@ -1,0 +1,35 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+
+# Data files (large, should not go to GitHub)
+data/raw/
+data/processed/
+
+# Trained models (can be large binary files)
+models/*.joblib
+models/*.pkl
+models/*.h5
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional, personal preference)
+.vscode/
+
+# Logs
+*.log
+
+# Pytest cache
+.pytest_cache/
