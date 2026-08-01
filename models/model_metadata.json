@@ -1,0 +1,37 @@
+{
+  "model_type": "RandomForestClassifier",
+  "model_params": {
+    "n_estimators": 200,
+    "class_weight": "balanced",
+    "random_state": 42
+  },
+  "threshold": 0.3,
+  "feature_names": [
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]",
+    "Type_H",
+    "Type_L",
+    "Type_M",
+    "Power",
+    "Temp_diff",
+    "Wear_Torque"
+  ],
+  "n_features": 11,
+  "trained_on_rows": 6999,
+  "frozen_test_results": {
+    "precision": 0.902,
+    "recall": 0.902,
+    "f1": 0.902,
+    "roc_auc": 0.991,
+    "pr_auc": 0.9371,
+    "failures_detected": 46,
+    "failures_missed": 5,
+    "false_alarms": 5,
+    "total_rows": 1500
+  },
+  "saved_at": "2026-08-01T14:02:45.282836",
+  "notes": "Class-weighted Random Forest, final selected model. Dataset: AI4I 2020 (synthetic). Do not retune after this point."
+}
