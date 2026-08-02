@@ -26,36 +26,34 @@ real factory environment.
 ---
 
 ## Project Structure
-predictive_maintenance/
-├── app/ # (planned) FastAPI / Streamlit application
-├── data/
-│ ├── raw/ # Original AI4I 2020 CSV
-│ └── processed/ # Processed data artifacts
-├── models/
-│ ├── model_metadata.json # Frozen model parameters, threshold, feature names, metrics
-│ └── README.md # Model reproducibility notes
-├── notebooks/
-│ └── 01_data_exploration.ipynb # EDA, feature engineering, model comparison
-├── reports/
-│ └── figures/ # Saved EDA charts
-├── scripts/
-│ └── save_final_model.py # Deterministic training + save with safety check
-├── src/
-│ ├── data_processing.py # Load, clean, encode, split
-│ ├── features.py # Engineered feature logic
-│ ├── train_model.py # Frozen model training
-│ ├── evaluate.py # Metric computation
-│ └── predict.py # Inference on new data
-├── tests/
-│ ├── test_data_processing.py
-│ ├── test_features.py
-│ ├── test_train_model.py
-│ ├── test_evaluate.py
-│ └── test_predict.py
-├── Dockerfile # (planned)
-└── requirements.txt
+## Project Structure
 
----
+- **`app/`** — (planned) FastAPI / Streamlit application
+- **`data/`**
+  - `raw/` — original AI4I 2020 CSV
+  - `processed/` — processed data artifacts
+- **`models/`**
+  - `model_metadata.json` — frozen model parameters, threshold, feature names, metrics
+  - `README.md` — model reproducibility notes
+- **`notebooks/`**
+  - `01_data_exploration.ipynb` — EDA, feature engineering, model comparison
+- **`reports/figures/`** — saved EDA charts
+- **`scripts/`**
+  - `save_final_model.py` — deterministic training + save, with safety check
+- **`src/`**
+  - `data_processing.py` — load, clean, encode, split
+  - `features.py` — engineered feature logic
+  - `train_model.py` — frozen model training
+  - `evaluate.py` — metric computation
+  - `predict.py` — inference on new data
+- **`tests/`**
+  - `test_data_processing.py`
+  - `test_features.py`
+  - `test_train_model.py`
+  - `test_evaluate.py`
+  - `test_predict.py`
+- **`Dockerfile`** — (planned)
+- **`requirements.txt`**
 
 ## Pipeline Overview
 
