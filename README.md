@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # Predictive Maintenance System Using Machine Learning
 
 An end-to-end machine learning pipeline for predicting industrial machine
