@@ -4,7 +4,7 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.7-orange)
 ![Streamlit](https://img.shields.io/badge/dashboard-Streamlit-red)
 ![Tests](https://img.shields.io/badge/tests-34%20passing-brightgreen)
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://merinjo90-predictive-maintenance.streamlit.app)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://machine-failure-predictor-ai4i.streamlit.app)
 
 An end-to-end machine learning pipeline for predicting industrial machine
 failures, built on the AI4I 2020 synthetic predictive-maintenance
@@ -18,7 +18,7 @@ available benchmark dataset. It demonstrates methodology, reproducibility,
 and engineering practice — it does not prove guaranteed performance in a
 real factory environment.
 
-### 🚀 [Live demo →](https://merinjo90-predictive-maintenance.streamlit.app)
+### 🚀 [Live demo →](https://machine-failure-predictor-ai4i.streamlit.app)
 
 Try the dashboard in your browser — no installation needed. (Hosted on the
 free Streamlit Community Cloud tier, so the first load after a quiet period
@@ -147,7 +147,7 @@ The live demo runs on [Streamlit Community Cloud](https://share.streamlit.io)
    - **Repository:** `merinjo90/predictive_maintenance`
    - **Branch:** `main`
    - **Main file path:** `app/dashboard.py`
-   - **App URL:** `merinjo90-predictive-maintenance`
+   - **App URL:** `machine-failure-predictor-ai4i`
 4. Open **Advanced settings** and choose **Python 3.12** (or 3.13).
 5. Click **Deploy**.
 
