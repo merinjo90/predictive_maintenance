@@ -1,0 +1,10 @@
+# Lean dependencies for the Streamlit dashboard (used by Streamlit Community
+# Cloud, which looks for requirements.txt next to app/dashboard.py first).
+# The model library versions must match the ones used to train the saved
+# model, or the frozen results will not reproduce.
+scikit-learn==1.7.2
+pandas==2.3.3
+numpy==2.2.6
+joblib==1.5.3
+plotly>=5.24
+streamlit>=1.50

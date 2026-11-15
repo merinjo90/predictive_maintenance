@@ -1,7 +1,12 @@
 # Models
 
-Trained model artifacts (`.joblib` files) are intentionally **not committed**
+Trained model artifacts (`.joblib` files) are generally **not committed**
 to this repository — see `.gitignore`.
+
+**Exception:** `random_forest_final.joblib` (the final frozen model, ≈4 MB)
+*is* committed, because the live Streamlit demo needs it to make
+predictions. It was produced by `scripts/save_final_model.py` and passed the
+safety check against the frozen Phase 7 results.
 
 ## Why
 

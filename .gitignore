@@ -33,3 +33,5 @@ Thumbs.db
 
 # Pytest cache
 .pytest_cache/
+# ...except the final frozen model, which the live dashboard needs
+!models/random_forest_final.joblib
